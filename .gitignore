@@ -1,1 +1,3 @@
 .HumanML3D
+*.bvh
+*.npy
