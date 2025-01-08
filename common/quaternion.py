@@ -36,6 +36,7 @@ def qmul(q, r):
     Expects two equally-sized tensors of shape (*, 4), where * denotes any number of dimensions.
     Returns q*r as a tensor of shape (*, 4).
     """
+    print("Shape of quat_params:", q.shape)
     assert q.shape[-1] == 4
     assert r.shape[-1] == 4
 
